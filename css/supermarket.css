@@ -1,0 +1,97 @@
+.supermarket {
+  width: 100%;
+  height: 110px;
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+
+  .center-supermarket {
+    width: 80%;
+    height: inherit;
+    background-color: #ecefee;
+    background-image: url(../images/supermarket/bgimage.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    border-radius: 15px;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0 20px;
+
+    .supermarket-right {
+      width: 40%;
+      height: inherit;
+
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+      column-gap: 10px;
+      .image-fresh {
+        width: 250px;
+      }
+      span {
+        width: 100px;
+        height: 30px;
+        background-color: #029a49;
+        font-size: 14px;
+        font-family: var(--fontfamily);
+        font-weight: bold;
+        color: white;
+        border-radius: 15px;
+        line-height: 20px;
+        padding: 7px;
+      }
+    }
+    .supermarket-left {
+ 
+      height: inherit;
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+      padding-right: 80px;
+      column-gap: 45px;
+      .pic-fresh {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        column-gap: 45px;
+
+        .super-image {
+          display: flex;
+          flex-flow: row wrap;
+          align-items: center;
+          img {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            position: absolute;
+          }
+          span {
+            position: relative;
+            top: 30px;
+            background-color: red;
+            border-radius: 15px;
+            padding: 0 5px;
+            font-family: var(--fontfamily);
+            font-size: 14px;
+            color: white;
+          }
+          
+        }
+      }
+
+      .more-product {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        margin-right: 20px;
+        background-color: white;
+        color: #029a49;
+        border-radius: 30px;
+        box-sizing: border-box;
+        padding: 15px;
+        font-family: var(--fontfamily);
+        font-size: 12px;
+      }
+    }
+  }
+}

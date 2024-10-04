@@ -1,0 +1,24 @@
+.banner{
+    width: 100%;
+    height: 242px;
+    margin-top: 15px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    .banner-center{
+        width: 80%;
+        height: inherit;
+        display: flex;
+        flex-flow: row wrap;
+        column-gap: 10px;
+        justify-content: center;
+
+        img{
+            width: 24.35%;
+            height: inherit;
+            border-radius: 15px;
+            object-fit: cover;
+        }
+    }
+
+}

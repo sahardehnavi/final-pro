@@ -1,0 +1,39 @@
+.full-banner {
+  width: 100%;
+  height: 168px;
+
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-top: 20px;
+
+  .full-banner-center {
+    width: 80%;
+    height: 100%;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+
+    
+    a {
+      width: 100%;
+      height: 100%;
+      cursor: pointer;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+  
+      align-items: center;
+     
+
+      img {
+        width: 100%;
+        height: 100%;
+        border-radius: 15px;
+      }
+    }
+  }
+}

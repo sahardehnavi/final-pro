@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: iranyekan;
+  src: url(../fonts/IRANYekanWeb.eot);
+  src: url(../fonts/IRANYekanWeb.ttf);
+  src: url(../fonts/IRANYekanWeb.woff);
+  src: url(../fonts/IRANYekanWeb.woff2);
+}
+
+
+
+:root {
+  --fontfamily: iranyekan;
+
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.swiper-button-next,
+.swiper-rtl .swiper-button-prev {
+  width: 40px;
+  height: 40px;
+
+  background-color: whitesmoke;
+  outline: 1px solid  lightgray;
+  border-radius: 50%;
+}
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after{
+    font-size: 15px;
+    color: gray;
+    font-weight: bold;
+}
+.swiper-button-disabled{
+opacity: 0 !important;
+}
+.swiper-pagination-bullet-active{
+ width: 20px !important;
+ background-color: whitesmoke !important;
+ border-radius: 5px !important;
+ outline-offset: 0;
+ transition: 100ms;
+}

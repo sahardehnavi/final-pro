@@ -1,0 +1,100 @@
+.category {
+  width: 100%;
+  height: 415px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-top: 20px;
+  .category-center {
+    width: 75%;
+    height: inherit;
+
+    .category-title {
+      width: 100%;
+      height: 40px;
+      padding-bottom: 50px;
+      h3 {
+        font-family: var(--fontfamily);
+        font-weight: 500;
+        text-align: center;
+        font-size: 24px;
+      }
+    }
+    .category-item {
+      width: 100%;
+      height: 375px;
+      display: flex;
+      flex-flow: column wrap;
+      align-items: center;
+
+      .category-item-top {
+        width: inherit;
+        height: 50%;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+     
+
+        .item-top {
+          width: 12.5%;
+          height: 100%;
+          display: flex;
+          flex-flow: column wrap;
+          align-items: center;
+          row-gap: 20px;
+          justify-content: center;
+
+
+            img {
+              width: 93px;
+              height: 93px;
+      
+            }
+            span {
+              width: 95px;
+              height: 50px;
+              font-size: 12px;
+              font-family: var(--fontfamily);
+              text-align: center;
+              text-decoration: none;
+              text-align: center;
+              color: black;
+            }
+          }
+        }
+      }
+    }
+    .category-item-bottom {
+      width: inherit;
+      height: 50%;
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+
+      .item-bottom {
+        width: 12.5%;
+        height: 100%;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        row-gap: 20px;
+        justify-content: center;
+        img {
+            width: 93px;
+            height: 93px;
+    
+          }
+        span {
+            width: 95px;
+            height: 50px;
+            font-size: 12px;
+            font-family: var(--fontfamily);
+            text-align: center;
+            text-decoration: none;
+            text-align: center;
+            color: black;
+          }
+      }
+    }
+  }
+
